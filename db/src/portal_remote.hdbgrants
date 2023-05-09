@@ -1,0 +1,36 @@
+{
+    "portal_remote": {
+        "object_owner": {
+        "global_object_privileges":[
+            {
+               "name":"RS_SPN_PORTALS2",
+               "type":"REMOTE SOURCE",
+               "privileges":[
+                  "CREATE VIRTUAL TABLE",
+                  "CREATE VIRTUAL FUNCTION",
+                  "CREATE VIRTUAL PROCEDURE",
+                  "CREATE REMOTE SUBSCRIPTION",
+                  "PROCESS REMOTE SUBSCRIPTION EXCEPTION",
+                  "ALTER",
+                  "DROP"
+               ]
+            }
+          ]
+        },
+        "application_user": {
+        "global_object_privileges":[
+            {
+               "name":"RS_SPN_PORTALS2",
+               "type":"REMOTE SOURCE",
+               "privileges":[
+                  "CREATE VIRTUAL TABLE",
+                  "CREATE VIRTUAL FUNCTION",
+                  "ALTER",
+                  "DROP",
+                  "PROCESS REMOTE SUBSCRIPTION EXCEPTION"
+               ]
+            }
+         ]
+        }
+    }
+ }
